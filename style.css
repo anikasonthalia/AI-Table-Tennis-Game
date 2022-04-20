@@ -21,11 +21,13 @@ font-size: 22px;
 {
     width: 70%;
 }
+
 .modal-body
 {
     text-align: left;
     font-size: 20px;
 }
+
 h4
 {
     position: fixed;
@@ -36,3 +38,12 @@ h4
     line-height: 3;
     text-align: center;
 }
+
+#canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+      width: 650px;
+      height: 485px;
+  }
