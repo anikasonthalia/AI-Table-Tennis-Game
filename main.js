@@ -55,3 +55,12 @@ function gotPoses(results)
     console.log(scoreRightWrist);
   }
 }
+
+function draw() {
+  if(scoreRightWrist > 0.2)
+  {
+    fill("red");
+    stroke("red");
+    circle(rightWristX,rightWristY,20);
+  }
+}
