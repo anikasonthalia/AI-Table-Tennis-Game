@@ -57,10 +57,21 @@ function gotPoses(results)
 }
 
 function draw() {
+  if(game_status == "start")
+  {
+    
+  }
+  
   if(scoreRightWrist > 0.2)
   {
     fill("red");
     stroke("red");
     circle(rightWristX,rightWristY,20);
   }
+
+}
+
+function startGame() {
+  game_status = "start";
+  document.getElementById("status").innerHTML = "Game Is Loaded";
 }
