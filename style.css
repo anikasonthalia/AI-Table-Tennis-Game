@@ -39,11 +39,9 @@ h4
     text-align: center;
 }
 
-#canvas 
+canvas 
   {
       border:3px solid white;
       border-radius: 20px;
       box-shadow:  5px 5px 5px white;
-      width: 650px;
-      height: 485px;
   }
